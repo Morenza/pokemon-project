@@ -1,0 +1,18 @@
+.pokemon-box {
+  font-size: 0.7rem;
+  color: black;
+ 
+}
+
+.pokemon-square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+.pokemon-square > * {
+    align-self: center;
+
+}

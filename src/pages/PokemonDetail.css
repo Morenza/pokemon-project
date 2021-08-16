@@ -1,0 +1,73 @@
+.moves {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.moves > div {
+    padding: 0px 30px 0px 0px;
+    align-self: flex-start;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.detail-child {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-child h2 {
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.detail-child img {
+  width: 200px;
+  margin: 0 auto;
+  height: 184px;
+}
+
+.pokemon-detail {
+  width: 100vw;
+  padding: 20px;
+}
+
+.pokemon-detail button {
+  padding: 10px 40px;
+  width: fit-content;
+  margin: 0 auto;
+  background: wheat;
+  border-radius: 10px;
+}
+
+.types{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.types-children{
+    display: flex;
+    width: 100vw;
+}
+.types-children > * {
+    padding: 30px;
+    margin-right: 1rem;
+     border: 2px solid black ;
+     border-radius: 10px;
+}
+
+.nickname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nickname >  * {
+    margin: 20px auto;
+}
+

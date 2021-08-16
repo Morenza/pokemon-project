@@ -1,0 +1,33 @@
+.pokemon-list {
+  border: 2px solid #060b26;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 0rem;
+  display: flex;
+  height: 75vh;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 3rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.pokemon-list p {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
+
+.pokemon-list__header {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
+    border-bottom: 2px solid #060b26;
+    text-align: center;
+}
+
+.pokemon-list__rowContainer {
+    margin: 0.1rem 0rem;
+    align-items: center;
+}

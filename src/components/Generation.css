@@ -1,0 +1,19 @@
+.generation-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.generation {
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.generation:hover {
+    background-color: #060b26;
+    color: white;
+}
